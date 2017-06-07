@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    div:nth-child(1) {
+        width: 200px;
+        height: 200px;
+        border: 10px solid red;
+        border-radius: 50%;
+        margin: 30px;
+        border-right: 10px solid green;
+        transition: none;
+        position: relative;
+    }
+    
+    div:nth-child(1):hover {
+        transform: rotate(360deg);
+        transition: all 1s linear 0s;
+    }
+    
+    div:nth-child(1)::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        background-color: darkgrey;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    
+    div:nth-child(2) {
+        width: 200px;
+        height: 200px;
+        border: 10px solid yellow;
+        border-radius: 50%;
+        margin: 30px;
+        border-right: 10px solid blue;
+        transition: none;
+        position: relative;
+    }
+    
+    div:nth-child(2):hover {
+        transform: rotate(360deg);
+        transition: all 1s linear 0s;
+    }
+    
+    div:nth-child(2)::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        background-color: darkgrey;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    
+    div:nth-child(3) {
+        width: 200px;
+        height: 200px;
+        border: 10px solid aqua;
+        border-radius: 50%;
+        margin: 30px;
+        border-right: 10px solid pink;
+        transition: none;
+        position: relative;
+    }
+    
+    div:nth-child(3):hover {
+        transform: rotate(360deg);
+        transition: all 1s linear 0s;
+    }
+    
+    div:nth-child(3)::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        background-color: darkgrey;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    
+    div:nth-child(4) {
+        width: 200px;
+        height: 200px;
+        border: 10px solid palegreen;
+        border-radius: 50%;
+        margin: 30px;
+        border-right: 10px solid pink;
+        transition: none;
+        position: relative;
+    }
+    
+    div:nth-child(4):hover {
+        transform: rotate(360deg);
+        transition: all 1s linear 0s;
+    }
+    
+    div:nth-child(4)::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        background-color: darkgrey;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    
+    div:nth-child(5) {
+        width: 200px;
+        height: 200px;
+        border: 10px solid orange;
+        border-radius: 50%;
+        margin: 30px;
+        border-right: 10px solid darkcyan;
+        transition: none;
+        position: relative;
+    }
+    
+    div:nth-child(5):hover {
+        transform: rotate(360deg);
+        transition: all 1s linear 0s;
+    }
+    
+    div:nth-child(5)::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        background-color: darkgrey;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+</style>
+
+<body>
+
+    <div>
+        you
+    </div>
+    <div>
+        are
+    </div>
+    <div>
+        my
+    </div>
+    <div>
+        pretty
+    </div>
+    <div>
+        sunshine
+    </div>
+</body>
+
+</html>
